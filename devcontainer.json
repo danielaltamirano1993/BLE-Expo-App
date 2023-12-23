@@ -1,0 +1,17 @@
+{
+  "name": "Node.js with Bluetooth",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "runArgs": [
+    "-u",
+    "vscode"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": null
+  },
+  "extensions": [
+    "ms-azuretools.vscode-docker"
+  ]
+}
